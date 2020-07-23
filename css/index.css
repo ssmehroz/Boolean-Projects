@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  height: 100px;
+  background-color: black;
+}
+header {
+  margin-top: 100px;
+  background-color: black;
+}
+
+.carousel-item {
+  height: 441px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 441px;
+}
+
+.carousel-caption {
+  margin-bottom: 100px;
+}
+.carousel-caption h1 {
+  background-color: #65c25d;
+  text-align: center;
+  font-size: 34px;
+  width: 345px;
+  height: 75px;
+  padding-top: 18px;
+}
+
+.carousel-caption p {
+  background-color: black;
+  width: 450px;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 16px;
+}
