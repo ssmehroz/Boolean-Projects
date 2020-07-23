@@ -5,6 +5,15 @@ nav {
   height: 100px;
   background-color: black;
 }
+
+.navbar-brand {
+  font-size: 27px;
+}
+
+.nav-text {
+  font-size: 13;
+}
+
 header {
   margin-top: 100px;
   background-color: black;
@@ -39,4 +48,18 @@ header {
   height: 40px;
   padding-top: 10px;
   font-size: 16px;
+}
+footer {
+  background-color: black;
+}
+
+.col-md-3 p {
+  font-size: 14px;
+}
+
+.col-md-3 li {
+  font-size: 14px;
+}
+.col-md-3 h5 {
+  font-size: 14px;
 }
