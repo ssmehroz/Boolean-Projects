@@ -8,10 +8,14 @@ nav {
 
 .navbar-brand {
   font-size: 27px;
+  margin-left: 150px;
 }
 
-.nav-text {
-  font-size: 13;
+.nav_text {
+  font-size: 13px;
+}
+.navbar-nav {
+  margin-left: 10px;
 }
 
 header {
@@ -19,6 +23,9 @@ header {
   background-color: black;
 }
 
+.carousel {
+  margin-bottom: 4rem;
+}
 .carousel-item {
   height: 441px;
 }
@@ -49,6 +56,28 @@ header {
   padding-top: 10px;
   font-size: 16px;
 }
+
+.cont-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.table h2 {
+  /* font-weight: 400; */
+  margin-top: 3rem;
+  font-size: 38px;
+}
+.table .col-lg-4 p {
+  margin-top: 3rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
 footer {
   background-color: black;
 }
