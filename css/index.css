@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-  height: 100px;
+  min-height: 100px;
   background-color: black;
 }
 
@@ -25,6 +25,7 @@ header {
 
 .carousel {
   margin-bottom: 4rem;
+  min-width: auto;
 }
 .carousel-item {
   height: 441px;
@@ -76,6 +77,29 @@ header {
   margin-top: 3rem;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+}
+
+.pic-porfolio {
+  /* background-attachment: fixed; */
+  background-image: url("../images/Optional Background Image-1.png");
+  /* height: 650px;
+  width: 1400px; */
+  min-width: auto;
+}
+.pic-porfolio h1 {
+  font-size: 30px;
+  color: white;
+  padding-top: 5rem;
+  padding-left: 10rem;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 230px;
+}
+.overlay {
+  height: 200px;
+  width: 230px;
 }
 
 footer {
