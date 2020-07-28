@@ -4,11 +4,12 @@ body {
 nav {
   min-height: 100px;
   background-color: black;
+  /* max-width: 1400px; */
 }
 
 .navbar-brand {
   font-size: 27px;
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
 
 .nav_text {
@@ -39,7 +40,7 @@ header {
 }
 
 .carousel-caption {
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
 }
 .carousel-caption h1 {
   background-color: #65c25d;
@@ -163,17 +164,27 @@ header {
   min-width: auto;
 }
 
+.test-button {
+  float: center;
+}
+
 footer {
+  min-height: 500px;
   background-color: black;
 }
 
 .col-md-3 p {
   font-size: 14px;
+  color: #aaaaaa;
 }
 
 .col-md-3 li {
   font-size: 14px;
+  color: #aaaaaa;
 }
 .col-md-3 h5 {
   font-size: 14px;
+}
+.footer-copyright hr {
+  background-color: #aaaaaa;
 }
