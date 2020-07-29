@@ -173,6 +173,52 @@ header {
   min-width: 55px;
 }
 
+.ourClient {
+  min-height: 500px;
+  min-width: auto;
+}
+
+.ourClient-img {
+  min-height: 174px;
+  min-width: 184px;
+}
+
+.newsest-cont {
+  min-height: 550px;
+  min-width: auto;
+  background-color: #f1f1f1;
+}
+.newsest-cont h6 {
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  line-height: 40px;
+}
+.card {
+  min-width: 317px;
+  max-height: 393px;
+}
+.card-img-top {
+  max-width: 285px;
+  max-height: 285px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.above-footer {
+  min-height: 150px;
+  min-width: auto;
+  background-color: #79c277;
+}
+
+.above-footer h1 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  /* min-height: 100px;
+  line-height: 160px; */
+}
+
 footer {
   min-height: 500px;
   background-color: black;
