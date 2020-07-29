@@ -168,6 +168,11 @@ header {
   float: center;
 }
 
+.test-img {
+  min-height: 60px;
+  min-width: 55px;
+}
+
 footer {
   min-height: 500px;
   background-color: black;
