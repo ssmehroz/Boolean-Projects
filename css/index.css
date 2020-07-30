@@ -96,12 +96,18 @@ header {
 }
 
 .img-fluid {
-  height: 200px;
-  width: 230px;
+  /* min-height: 200px; */
+  height: auto;
+  /* min-width: 230; */
+  min-width: 100%;
+  padding: 5px;
 }
 .overlay {
-  height: 200px;
+  /* height: 200px;
+  width: 230px; */
+  height: auto;
   width: 230px;
+  /* width: 100%; */
 }
 
 .thunder-conatiner {
@@ -134,8 +140,8 @@ header {
   /* width: "30px"; */
 }
 .grass-img {
-  min-height: 160px;
-  min-width: 312px;
+  max-height: 160px;
+  max-width: 312px;
 }
 
 .testimonial-client {
@@ -181,6 +187,7 @@ header {
 .ourClient-img {
   min-height: 174px;
   min-width: 184px;
+  padding: 5px;
 }
 
 .newsest-cont {
@@ -197,6 +204,7 @@ header {
 .card {
   min-width: 317px;
   max-height: 393px;
+  margin: 5px;
 }
 .card-img-top {
   max-width: 285px;
