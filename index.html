@@ -129,25 +129,25 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">PORTFOLIO</a>
+              <a class="nav-link nav_text" href="#porfolio">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">SERVICES</a>
+              <a class="nav-link nav_text" href="#services">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">STAFF</a>
+              <a class="nav-link nav_text" href="#staff">STAFF</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">PAGES</a>
+              <a class="nav-link nav_text" href="#pages">PAGES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">FEATURES</a>
+              <a class="nav-link nav_text" href="#features">FEATURES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">BLOG</a>
+              <a class="nav-link nav_text" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_text" href="">CONTACT</a>
+              <a class="nav-link nav_text" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -251,15 +251,15 @@
     </div>
 
     <!-- Picutre Portfolio -->
-    <div class="container-fluid pic-porfolio">
+    <div class="container-fluid pic-porfolio" id="porfolio">
       <div class="container" style="padding-top: 5rem;">
         <div class="row">
           <div class="col-lg-6 justify-content-between">
             <h1>Recent Work</h1>
           </div>
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <h1 style="text-align: end;">Okay</h1>
-          </div>
+          </div> -->
         </div>
 
         <!-- card hover  -->
@@ -385,7 +385,7 @@
       </div>
     </div>
     <!-- Hear the thunder -->
-    <div class="container-fluid thunder-conatiner">
+    <div class="container-fluid thunder-conatiner" id="services">
       <div class="container" style="padding-top: 5rem; margin-top: 3rem;">
         <div class="row justify-content-md-center">
           <div class="col-md-6">
@@ -412,7 +412,7 @@
     </div>
 
     <!-- Latest news -->
-    <div class="container-fluid latest-news">
+    <div class="container-fluid latest-news" id="staff">
       <div class="container" style="padding-top: 5rem;">
         <div class="row">
           <div class="col-lg-6 justify-content-between">
@@ -458,7 +458,7 @@
     </div>
 
     <!-- Latest news -->
-    <div class="container-fluid testimonial-client">
+    <div class="container-fluid testimonial-client" id="pages">
       <div class="container" style="padding-top: 5rem;">
         <div class="row">
           <div class="col-lg-12 justify-content-lg-center">
@@ -504,7 +504,7 @@
     </div>
 
     <!-- OUR CLIENT -->
-    <div class="container-fluid ourClient">
+    <div class="container-fluid ourClient" id="features">
       <div class="container" style="padding-top: 3rem;">
         <div class="row">
           <div class="col-sm-2">
@@ -597,7 +597,7 @@
     </div>
 
     <!-- Newest -->
-    <div class="container-fluid newsest-cont">
+    <div class="container-fluid newsest-cont" id="blog">
       <div class="container" style="padding-top: 3rem;">
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
@@ -782,5 +782,17 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
   </body>
 </html>
